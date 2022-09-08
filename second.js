@@ -1,5 +1,5 @@
 var cats = [];
-for (let index = 0; index < 20; index++) {
+for (let index = 1; index <= 20; index++) {
     var obj = {
         name: "Cirmos"+index,
         age: Math.round((Math.random()*10)+2,2)
